@@ -1,0 +1,22 @@
+1. Creating virtual environment 
+    python -m venv venv
+    venv\Scripts\Activate
+2. Installing Django and essential libraries
+    pip install django
+3. Create a project 
+    django-admin startproject SmartRecipeManager
+4. Navigate into the project directory
+    cd SmartRecipeManager
+5. Create a main app 
+    python manage.py startapp recipes
+6.  For Modularity 
+    mkdir apps
+    move appname apps\          #here app names are recipes,user etc...
+7. Create  requirements.txt
+    pip freeze > requirements.txt
+8. To access django admin
+    Create the initial database tables by running:
+        python manage.py migrate
+    python manage.py createsuperuser
+
+
