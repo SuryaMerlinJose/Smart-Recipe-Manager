@@ -1,0 +1,5 @@
+apps/users
+  -  Registration Form: For new users to sign up.
+  -  Login Form: For users to authenticate and access their account.
+  -  Profile Update Form: For authenticated users to manage their profile details.
+  -  Password Reset Form: For users who forget their password to reset it securely.
